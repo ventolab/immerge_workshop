@@ -3,6 +3,10 @@
 /results
 /data
 
+# Working folders
+
+/codes/working
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
