@@ -4,6 +4,8 @@ from pathlib import Path
 IN_COLAB = "google.colab" in sys.modules
 
 if IN_COLAB:
+    from google.colab import drive
+    drive.mount('/content/drive')
     course_dir = Path("/content/drive/MyDrive/immerge_workshop")
     os.chdir(course_dir)
     subprocess.run([sys.executable, "-m", "pip", "install", "-q",
