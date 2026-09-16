@@ -9,4 +9,3 @@ scanpy==1.12
 pydeseq2==0.5.4
 leidenalg
 python-igraph
-
