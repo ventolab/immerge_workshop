@@ -7,5 +7,6 @@ decoupler==2.2.0
 scrublet==0.2.3
 scanpy==1.12
 pydeseq2==0.5.4
+mudata==0.3.3
 leidenalg
 python-igraph
